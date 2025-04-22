@@ -26,3 +26,38 @@ A responsive web application that allows users to log their daily mood, write sh
    ```bash
    git clone https://github.com/your-username/mood-journal-weather.git
    cd mood-journal-weather
+
+
+2. Install Dependencies
+
+npm install
+
+3. Enter API Key
+
+REACT_APP_WEATHER_API_KEY=your_openweathermap_api_key
+
+You can get your API key for free from OpenWeatherMap.
+
+4. Run the Application
+
+npm start
+
+
+How It Works
+
+1. On app load, it fetches the current date and user's location.
+
+
+2. Using coordinates, it fetches weather data from OpenWeatherMap.
+
+
+3. Users can:
+
+Select a mood (happy, sad, angry, relaxed, neutral)
+
+Enter a short journal note
+
+
+
+4. Entries are saved to localStorage with date, mood, note, and weather.
+
