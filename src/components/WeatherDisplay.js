@@ -5,7 +5,7 @@ const WeatherDisplay = () => {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    const apiKey = "d764ff0e64f3da93c2374bff2c44a6b1"; // Replace with your API key
+    const apiKey = "Your_API_KEY"; // Replace with your API key
     navigator.geolocation.getCurrentPosition(
       async (position) => {
         const latitude = position.coords.latitude;
